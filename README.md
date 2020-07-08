@@ -27,7 +27,7 @@ npm i -D @types/node
 tsc --init
 ```
 tsconfig.json 구성보는 다음과 같음
-```json
+```yaml
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
