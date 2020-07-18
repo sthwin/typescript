@@ -2,6 +2,8 @@ import Person, { makePerson } from './person/Person'
 import IPerson from './person/IPerson'
 import Chance from 'chance'
 import * as R from 'ramda'
+import {range} from './utils/range'
+import {fold} from './utils/fold'
 
 const chance = new Chance()
 let persons: IPerson[] = R.range(0, 2)
@@ -43,3 +45,12 @@ const multiplySpreaded = (a: number) => {
 
 console.log(multiply(1)(2)(3))
 console.log(multiplySpreaded(1)(2)(3))
+
+
+console.log('range: ',range(1, 10))
+
+let numbers: number[] = range(1, 100 + 1);
+
+let result = fold(numbers, (result, val) => result + val, 0);
+
+console.log('declarative-sum: ', result);
