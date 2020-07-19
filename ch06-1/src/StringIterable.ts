@@ -1,4 +1,3 @@
-
 export class StringIterable implements Iterable<String> {
     constructor(private strings: string[] = [], private currentIndex: number = 0) { }
     [Symbol.iterator](): Iterator<string> {
