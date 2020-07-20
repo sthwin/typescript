@@ -1,5 +1,3 @@
-import { DH_NOT_SUITABLE_GENERATOR } from "constants";
-
 function* generator() {
     console.log('generator started...')
     let value = 1
