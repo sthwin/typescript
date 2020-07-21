@@ -15,5 +15,5 @@
     "skipLibCheck": true,                     /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
-  "include": ["src/**/*", "../ch07-1/src/Promise.all.ts"]                     /* ./src 와 ./src/utils 디렉토리에 이 프로젝트의 모든 타입스크립트 소스 파일이 있다는것을 의미*/
+  "include": ["src/**/*"]                     /* ./src 와 ./src/utils 디렉토리에 이 프로젝트의 모든 타입스크립트 소스 파일이 있다는것을 의미*/
 }
