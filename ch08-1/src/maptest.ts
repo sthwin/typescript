@@ -13,7 +13,7 @@ const map = <T, R> (f: (T) => R) => (a: T[]): R[] => a.map(f)
 
 const square = value => value * value
 export const squaredMap = map(square)
-console.log(squaredMap([1, 2]))
+//console.log(squaredMap([1, 2]))
 
 const fourSquare = pipe(
     squaredMap,
