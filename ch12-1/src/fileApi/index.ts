@@ -5,5 +5,6 @@ import { writeFile } from './writeFile';
 import { rmdir } from './rmdir';
 import { mkdir } from './mkdir';
 import { fileExists } from './fileExists';
+import { readFileGenerator } from './readFileGenerator';
 
-export { fileExists, mkdir, rmdir, writeFile, readFile, appendFile, deleteFile }
+export { fileExists, mkdir, rmdir, writeFile, readFile, appendFile, deleteFile, readFileGenerator }
