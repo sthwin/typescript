@@ -36,6 +36,7 @@ function readLine(fd: any, buffer: Buffer, bufferSize: number, position: number)
             if (index > -1) {
                 line += temp.substr(0, index)
                 position += index + crSize
+                break
             } else {
                 line += temp
                 position += temp.length
